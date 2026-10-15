@@ -1,0 +1,1 @@
+print("Trial to test git commit --no-edit")
