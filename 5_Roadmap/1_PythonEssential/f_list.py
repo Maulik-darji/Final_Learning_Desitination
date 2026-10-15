@@ -1,32 +1,32 @@
 list1 = ["Apple", "Banana", "Mango", "Guava", "Lichi"]
 
-# #indexing
-# print(list1[1])
-# print(list1.index("Banana"))
+#indexing
+print(list1[1])
+print(list1.index("Banana"))
 
 
 
-# #slicing
-# print(list1[1:5])
-# print(list1[1:5:2])
+#slicing
+print(list1[1:5])
+print(list1[1:5:2])
 
 
 
-# #inserting
-# list1.append("Coconut")
-# print(list1)
+#inserting
+list1.append("Coconut")
+print(list1)
 
-# list1.insert(1,"Coconut")
-# print(list1)
+list1.insert(1,"Coconut")
+print(list1)
 
 
 
-# #Removing Duplicate
-# print(set(list1))
-# unique = list(dict.fromkeys(list1))
-# print(unique)
+#Removing Duplicate
+print(set(list1))
+unique = list(dict.fromkeys(list1))
+print(unique)
 
-# print(list(dict.fromkeys(list1)))
+print(list(dict.fromkeys(list1)))
 
 
 #Removing or deleteing
