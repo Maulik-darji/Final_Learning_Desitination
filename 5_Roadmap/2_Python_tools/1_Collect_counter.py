@@ -14,6 +14,10 @@ print(Counter(num)[20])
 
 
 number2 = [20, 20, 20, 20, 20, 20, 50, 50, 20, 10, 10, 30, 30, 30, 70, 90]
+count2 = Counter(number2)
+# count = Counter(number2)
+print(count2.most_common(1))
 
-count = Counter(number2)
-print(count.most_common(5))
+count3 = Counter("aaabbbbcc")
+print(count3.keys())
+print(count3.values())
