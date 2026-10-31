@@ -24,3 +24,21 @@ for name, subject in students:
     groups[subject].append(name)
 
 print(dict(groups))
+
+
+#code3
+
+students2 = [
+    ("Maulik", "Python"),
+    ("Maulik", "Python"),
+    ("Rahul", "Java"),
+    ("Amit", "Python"),
+    ("Purv", "Java"),
+    ("Nihar", "Go")
+]
+
+groups2 = defaultdict(set)
+
+for nam, sub in students2:
+    groups2[sub].add(nam)
+print(dict(groups2))
