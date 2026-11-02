@@ -1,0 +1,7 @@
+def count(number):
+    if number > 5:
+        return
+    print(number)
+    count(number + 1)
+
+count(1)
