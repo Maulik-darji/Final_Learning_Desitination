@@ -8,3 +8,5 @@ print(sorted(list1))
 #code 2 using merged
 merged = list1 + list2
 print(merged)
+print(sorted(merged))
+print(sorted(merged, reverse=True))

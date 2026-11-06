@@ -1,13 +1,14 @@
 from collections import Counter
 
-numbers = [7, 2, 10, 12, 11]
+list1 = [2, 7, 10, 11, 12, 15]
+print("List: ", list1)
+target = int(input("Enter Target Value: "))
 
-target = 9
+freq = Counter(list1)
 
-frequency = Counter(numbers)
-
-for number in numbers:
-    required = target - numbers
-    if frequency[required] > 0:
-        print(numbers, required)
+for num in list1:
+    complement = target - num
+    if freq[complement]>0:
+        print("Two Sum Numbers are: ",  num, complement, sep=",")
         break
+    freq[num] -= 1
